@@ -1,195 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ce7e4ed-6d23-447b-9ea6-824a0ce395a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/Absolutely.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/Logo_100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/Logo_40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/201703051349045432.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/201703051847567306.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/201703142313157316.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/201703152314519971.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/201703162101115908.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/201703181708141811.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/201703181740098218.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/201703181909057125.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/cover/cover_default.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/handshake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/messagewall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/qq_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/qzone_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/wechat_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/images/weibo_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/modules/laydate/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/modules/layer/default/icon-ext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/modules/layer/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/modules/layer/default/loading-0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/modules/layer/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/modules/layer/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/font/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/font/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/font/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/images/face/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/css/about.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/css/article.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/css/detail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/css/global.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/css/home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/css/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/css/resource.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/css/timeline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/js/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/js/detail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/js/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/js/home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/js/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/layui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/layui.mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/modules/code.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/modules/laydate/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/css/modules/layer/default/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/font/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/dest/layui.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/lib/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/flow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/laydate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/layedit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/laypage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/laytpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/pagesize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/lay/modules/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/home/plug/layui/layui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/mix-manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/home/layouts/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/home/layouts/header.blade.php" />
+    <list default="true" id="2ce7e4ed-6d23-447b-9ea6-824a0ce395a1" name="Default" comment="laravel blog init">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/index/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/index/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/layouts/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/layouts/nav.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/layouts/nav.blade.php" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -208,15 +21,13 @@
     <favorites_list name="blog" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="738">
               <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -254,93 +65,38 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home/index/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="4680">
               <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
-              <folding>
-                <element signature="e#149#177#0#HTML" expanded="true" />
-                <element signature="e#776#812#0#HTML" expanded="true" />
-                <element signature="e#918#940#0#HTML" expanded="true" />
-                <element signature="e#1009#1027#0#HTML" expanded="true" />
-                <element signature="e#1091#1109#0#HTML" expanded="true" />
-                <element signature="e#1192#1213#0#HTML" expanded="true" />
-                <element signature="e#1256#1278#0#HTML" expanded="true" />
-                <element signature="e#1283#1289#0#HTML" expanded="true" />
-                <element signature="e#1292#1298#0#HTML" expanded="true" />
-                <element signature="e#2290#2296#0#HTML" expanded="true" />
-                <element signature="e#2296#2302#0#HTML" expanded="true" />
-                <element signature="e#2399#2405#0#HTML" expanded="true" />
-                <element signature="e#2405#2411#0#HTML" expanded="true" />
-                <element signature="e#2484#2490#0#HTML" expanded="true" />
-                <element signature="e#2490#2496#0#HTML" expanded="true" />
-                <element signature="e#2605#2611#0#HTML" expanded="true" />
-                <element signature="e#2707#2713#0#HTML" expanded="true" />
-                <element signature="e#3607#3613#0#HTML" expanded="true" />
-                <element signature="e#3613#3619#0#HTML" expanded="true" />
-                <element signature="e#3716#3722#0#HTML" expanded="true" />
-                <element signature="e#3722#3728#0#HTML" expanded="true" />
-                <element signature="e#3801#3807#0#HTML" expanded="true" />
-                <element signature="e#3807#3813#0#HTML" expanded="true" />
-                <element signature="e#3922#3928#0#HTML" expanded="true" />
-                <element signature="e#4024#4030#0#HTML" expanded="true" />
-                <element signature="e#4924#4930#0#HTML" expanded="true" />
-                <element signature="e#4930#4936#0#HTML" expanded="true" />
-                <element signature="e#5033#5039#0#HTML" expanded="true" />
-                <element signature="e#5039#5045#0#HTML" expanded="true" />
-                <element signature="e#5118#5124#0#HTML" expanded="true" />
-                <element signature="e#5124#5130#0#HTML" expanded="true" />
-                <element signature="e#5239#5245#0#HTML" expanded="true" />
-                <element signature="e#5341#5347#0#HTML" expanded="true" />
-                <element signature="e#6241#6247#0#HTML" expanded="true" />
-                <element signature="e#6247#6253#0#HTML" expanded="true" />
-                <element signature="e#6350#6356#0#HTML" expanded="true" />
-                <element signature="e#6356#6362#0#HTML" expanded="true" />
-                <element signature="e#6435#6441#0#HTML" expanded="true" />
-                <element signature="e#6441#6447#0#HTML" expanded="true" />
-                <element signature="e#6556#6562#0#HTML" expanded="true" />
-                <element signature="e#6658#6664#0#HTML" expanded="true" />
-                <element signature="e#7558#7564#0#HTML" expanded="true" />
-                <element signature="e#7564#7570#0#HTML" expanded="true" />
-                <element signature="e#7667#7673#0#HTML" expanded="true" />
-                <element signature="e#7673#7679#0#HTML" expanded="true" />
-                <element signature="e#7752#7758#0#HTML" expanded="true" />
-                <element signature="e#7758#7764#0#HTML" expanded="true" />
-                <element signature="e#7873#7879#0#HTML" expanded="true" />
-                <element signature="e#7975#7981#0#HTML" expanded="true" />
-                <element signature="e#8875#8881#0#HTML" expanded="true" />
-                <element signature="e#8881#8887#0#HTML" expanded="true" />
-                <element signature="e#8984#8990#0#HTML" expanded="true" />
-                <element signature="e#8990#8996#0#HTML" expanded="true" />
-                <element signature="e#9069#9075#0#HTML" expanded="true" />
-                <element signature="e#9075#9081#0#HTML" expanded="true" />
-                <element signature="e#9190#9196#0#HTML" expanded="true" />
-                <element signature="e#9292#9298#0#HTML" expanded="true" />
-                <element signature="e#10192#10198#0#HTML" expanded="true" />
-                <element signature="e#10198#10204#0#HTML" expanded="true" />
-                <element signature="e#10301#10307#0#HTML" expanded="true" />
-                <element signature="e#10307#10313#0#HTML" expanded="true" />
-                <element signature="e#10386#10392#0#HTML" expanded="true" />
-                <element signature="e#10392#10398#0#HTML" expanded="true" />
-                <element signature="e#10507#10513#0#HTML" expanded="true" />
-                <element signature="e#10609#10615#0#HTML" expanded="true" />
-                <element signature="e#11509#11515#0#HTML" expanded="true" />
-                <element signature="e#11515#11521#0#HTML" expanded="true" />
-                <element signature="e#11618#11624#0#HTML" expanded="true" />
-                <element signature="e#11624#11630#0#HTML" expanded="true" />
-                <element signature="e#11703#11709#0#HTML" expanded="true" />
-                <element signature="e#11709#11715#0#HTML" expanded="true" />
-                <element signature="e#11824#11830#0#HTML" expanded="true" />
-                <element signature="e#11926#11932#0#HTML" expanded="true" />
-                <element signature="e#12517#12523#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.mix.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -368,6 +124,7 @@
         <option value="$PROJECT_DIR$/resources/views/home/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/home/js/global.js" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/public/index.php" />
       </list>
     </option>
   </component>
@@ -412,6 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -440,82 +199,16 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
@@ -554,6 +247,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -587,7 +286,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498540071858</updated>
-      <workItem from="1498540073571" duration="9010000" />
+      <workItem from="1498540073571" duration="9355000" />
+      <workItem from="1498551086738" duration="1734000" />
     </task>
     <task id="LOCAL-00001" summary="laravel blog init">
       <created>1498540466484</created>
@@ -603,33 +303,47 @@
       <option name="project" value="LOCAL" />
       <updated>1498541728669</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="laravel blog init">
+      <created>1498549778117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1498549778117</updated>
+    </task>
+    <task id="LOCAL-00004" summary="laravel blog file">
+      <created>1498556836195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1498556836195</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9010000" />
+    <option name="totallyTimeSpent" value="11089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -645,14 +359,55 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="laravel blog init" />
-    <option name="LAST_COMMIT_MESSAGE" value="laravel blog init" />
+    <MESSAGE value="laravel blog file" />
+    <option name="LAST_COMMIT_MESSAGE" value="laravel blog file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/resources/assets/home/css/home.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/index/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4680">
+          <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -660,43 +415,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/home/layouts/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/home/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/home/index/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/assets/home/css/home.css" />
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/home/layouts/nav.blade.php" />
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/home/layouts/app.blade.php" />
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/home/index/index.blade.php" />
+    <entry file="file://$PROJECT_DIR$/laravel/routes/web.php" />
     <entry file="file://D:/wamp/bin/apache/apache2.4.23/conf/extra/httpd-vhosts.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="177" column="39" selection-start-line="177" selection-start-column="39" selection-end-line="177" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,110 +456,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4788">
           <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="336" selection-end-column="10" />
-          <folding>
-            <element signature="e#1538#1544#0" expanded="false" />
-            <element signature="e#1699#1705#0" expanded="false" />
-            <element signature="e#1856#1862#0" expanded="false" />
-            <element signature="e#2023#2029#0" expanded="false" />
-            <element signature="e#2177#2183#0" expanded="false" />
-            <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3743#3749#0" expanded="false" />
-            <element signature="e#3752#3758#0" expanded="false" />
-            <element signature="e#4821#4827#0" expanded="false" />
-            <element signature="e#4827#4833#0" expanded="false" />
-            <element signature="e#4934#4940#0" expanded="false" />
-            <element signature="e#4940#4946#0" expanded="false" />
-            <element signature="e#5023#5029#0" expanded="false" />
-            <element signature="e#5029#5035#0" expanded="false" />
-            <element signature="e#5148#5154#0" expanded="false" />
-            <element signature="e#5254#5260#0" expanded="false" />
-            <element signature="e#6217#6223#0" expanded="false" />
-            <element signature="e#6223#6229#0" expanded="false" />
-            <element signature="e#6330#6336#0" expanded="false" />
-            <element signature="e#6336#6342#0" expanded="false" />
-            <element signature="e#6419#6425#0" expanded="false" />
-            <element signature="e#6425#6431#0" expanded="false" />
-            <element signature="e#6544#6550#0" expanded="false" />
-            <element signature="e#6650#6656#0" expanded="false" />
-            <element signature="e#7613#7619#0" expanded="false" />
-            <element signature="e#7619#7625#0" expanded="false" />
-            <element signature="e#7726#7732#0" expanded="false" />
-            <element signature="e#7732#7738#0" expanded="false" />
-            <element signature="e#7815#7821#0" expanded="false" />
-            <element signature="e#7821#7827#0" expanded="false" />
-            <element signature="e#7940#7946#0" expanded="false" />
-            <element signature="e#8046#8052#0" expanded="false" />
-            <element signature="e#9009#9015#0" expanded="false" />
-            <element signature="e#9015#9021#0" expanded="false" />
-            <element signature="e#9122#9128#0" expanded="false" />
-            <element signature="e#9128#9134#0" expanded="false" />
-            <element signature="e#9211#9217#0" expanded="false" />
-            <element signature="e#9217#9223#0" expanded="false" />
-            <element signature="e#9336#9342#0" expanded="false" />
-            <element signature="e#9442#9448#0" expanded="false" />
-            <element signature="e#10405#10411#0" expanded="false" />
-            <element signature="e#10411#10417#0" expanded="false" />
-            <element signature="e#10518#10524#0" expanded="false" />
-            <element signature="e#10524#10530#0" expanded="false" />
-            <element signature="e#10607#10613#0" expanded="false" />
-            <element signature="e#10613#10619#0" expanded="false" />
-            <element signature="e#10732#10738#0" expanded="false" />
-            <element signature="e#10838#10844#0" expanded="false" />
-            <element signature="e#11801#11807#0" expanded="false" />
-            <element signature="e#11807#11813#0" expanded="false" />
-            <element signature="e#11914#11920#0" expanded="false" />
-            <element signature="e#11920#11926#0" expanded="false" />
-            <element signature="e#12003#12009#0" expanded="false" />
-            <element signature="e#12009#12015#0" expanded="false" />
-            <element signature="e#12128#12134#0" expanded="false" />
-            <element signature="e#12234#12240#0" expanded="false" />
-            <element signature="e#13197#13203#0" expanded="false" />
-            <element signature="e#13203#13209#0" expanded="false" />
-            <element signature="e#13310#13316#0" expanded="false" />
-            <element signature="e#13316#13322#0" expanded="false" />
-            <element signature="e#13399#13405#0" expanded="false" />
-            <element signature="e#13405#13411#0" expanded="false" />
-            <element signature="e#13524#13530#0" expanded="false" />
-            <element signature="e#13630#13636#0" expanded="false" />
-            <element signature="e#14593#14599#0" expanded="false" />
-            <element signature="e#14599#14605#0" expanded="false" />
-            <element signature="e#14706#14712#0" expanded="false" />
-            <element signature="e#14712#14718#0" expanded="false" />
-            <element signature="e#14795#14801#0" expanded="false" />
-            <element signature="e#14801#14807#0" expanded="false" />
-            <element signature="e#14920#14926#0" expanded="false" />
-            <element signature="e#15026#15032#0" expanded="false" />
-            <element signature="e#15660#15666#0" expanded="false" />
-            <element signature="e#20222#20228#0" expanded="false" />
-            <element signature="e#20651#20657#0" expanded="false" />
-            <element signature="e#20788#20794#0" expanded="false" />
-            <element signature="e#20921#20927#0" expanded="false" />
-            <element signature="e#21054#21060#0" expanded="false" />
-            <element signature="e#21184#21190#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/home.js" />
     <entry file="file://$PROJECT_DIR$/../../BlogTemplate-master/html/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="289" column="18" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="196" column="44" selection-start-line="196" selection-start-column="44" selection-end-line="196" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,6 +478,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="243" column="18" selection-start-line="243" selection-start-column="18" selection-end-line="243" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="391" column="13" selection-start-line="391" selection-start-column="13" selection-end-line="391" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/test.js" />
+    <entry file="file://$PROJECT_DIR$/resources/assets/home/js/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/share.js" />
+    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/index/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4680">
+          <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -861,151 +537,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/index/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
-          <folding>
-            <element signature="e#149#177#0#HTML" expanded="true" />
-            <element signature="e#776#812#0#HTML" expanded="true" />
-            <element signature="e#918#940#0#HTML" expanded="true" />
-            <element signature="e#1009#1027#0#HTML" expanded="true" />
-            <element signature="e#1091#1109#0#HTML" expanded="true" />
-            <element signature="e#1192#1213#0#HTML" expanded="true" />
-            <element signature="e#1256#1278#0#HTML" expanded="true" />
-            <element signature="e#1283#1289#0#HTML" expanded="true" />
-            <element signature="e#1292#1298#0#HTML" expanded="true" />
-            <element signature="e#2290#2296#0#HTML" expanded="true" />
-            <element signature="e#2296#2302#0#HTML" expanded="true" />
-            <element signature="e#2399#2405#0#HTML" expanded="true" />
-            <element signature="e#2405#2411#0#HTML" expanded="true" />
-            <element signature="e#2484#2490#0#HTML" expanded="true" />
-            <element signature="e#2490#2496#0#HTML" expanded="true" />
-            <element signature="e#2605#2611#0#HTML" expanded="true" />
-            <element signature="e#2707#2713#0#HTML" expanded="true" />
-            <element signature="e#3607#3613#0#HTML" expanded="true" />
-            <element signature="e#3613#3619#0#HTML" expanded="true" />
-            <element signature="e#3716#3722#0#HTML" expanded="true" />
-            <element signature="e#3722#3728#0#HTML" expanded="true" />
-            <element signature="e#3801#3807#0#HTML" expanded="true" />
-            <element signature="e#3807#3813#0#HTML" expanded="true" />
-            <element signature="e#3922#3928#0#HTML" expanded="true" />
-            <element signature="e#4024#4030#0#HTML" expanded="true" />
-            <element signature="e#4924#4930#0#HTML" expanded="true" />
-            <element signature="e#4930#4936#0#HTML" expanded="true" />
-            <element signature="e#5033#5039#0#HTML" expanded="true" />
-            <element signature="e#5039#5045#0#HTML" expanded="true" />
-            <element signature="e#5118#5124#0#HTML" expanded="true" />
-            <element signature="e#5124#5130#0#HTML" expanded="true" />
-            <element signature="e#5239#5245#0#HTML" expanded="true" />
-            <element signature="e#5341#5347#0#HTML" expanded="true" />
-            <element signature="e#6241#6247#0#HTML" expanded="true" />
-            <element signature="e#6247#6253#0#HTML" expanded="true" />
-            <element signature="e#6350#6356#0#HTML" expanded="true" />
-            <element signature="e#6356#6362#0#HTML" expanded="true" />
-            <element signature="e#6435#6441#0#HTML" expanded="true" />
-            <element signature="e#6441#6447#0#HTML" expanded="true" />
-            <element signature="e#6556#6562#0#HTML" expanded="true" />
-            <element signature="e#6658#6664#0#HTML" expanded="true" />
-            <element signature="e#7558#7564#0#HTML" expanded="true" />
-            <element signature="e#7564#7570#0#HTML" expanded="true" />
-            <element signature="e#7667#7673#0#HTML" expanded="true" />
-            <element signature="e#7673#7679#0#HTML" expanded="true" />
-            <element signature="e#7752#7758#0#HTML" expanded="true" />
-            <element signature="e#7758#7764#0#HTML" expanded="true" />
-            <element signature="e#7873#7879#0#HTML" expanded="true" />
-            <element signature="e#7975#7981#0#HTML" expanded="true" />
-            <element signature="e#8875#8881#0#HTML" expanded="true" />
-            <element signature="e#8881#8887#0#HTML" expanded="true" />
-            <element signature="e#8984#8990#0#HTML" expanded="true" />
-            <element signature="e#8990#8996#0#HTML" expanded="true" />
-            <element signature="e#9069#9075#0#HTML" expanded="true" />
-            <element signature="e#9075#9081#0#HTML" expanded="true" />
-            <element signature="e#9190#9196#0#HTML" expanded="true" />
-            <element signature="e#9292#9298#0#HTML" expanded="true" />
-            <element signature="e#10192#10198#0#HTML" expanded="true" />
-            <element signature="e#10198#10204#0#HTML" expanded="true" />
-            <element signature="e#10301#10307#0#HTML" expanded="true" />
-            <element signature="e#10307#10313#0#HTML" expanded="true" />
-            <element signature="e#10386#10392#0#HTML" expanded="true" />
-            <element signature="e#10392#10398#0#HTML" expanded="true" />
-            <element signature="e#10507#10513#0#HTML" expanded="true" />
-            <element signature="e#10609#10615#0#HTML" expanded="true" />
-            <element signature="e#11509#11515#0#HTML" expanded="true" />
-            <element signature="e#11515#11521#0#HTML" expanded="true" />
-            <element signature="e#11618#11624#0#HTML" expanded="true" />
-            <element signature="e#11624#11630#0#HTML" expanded="true" />
-            <element signature="e#11703#11709#0#HTML" expanded="true" />
-            <element signature="e#11709#11715#0#HTML" expanded="true" />
-            <element signature="e#11824#11830#0#HTML" expanded="true" />
-            <element signature="e#11926#11932#0#HTML" expanded="true" />
-            <element signature="e#12517#12523#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="391" column="13" selection-start-line="391" selection-start-column="13" selection-end-line="391" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12883">
-          <caret line="82" column="20" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/home/js/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/share.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/layouts/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
           <folding />
         </state>
       </provider>
