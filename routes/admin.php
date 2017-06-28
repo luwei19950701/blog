@@ -8,5 +8,5 @@
 */
 
 Route::group([], function () {
-    Route::get('/', ['as' => 'admin.index', 'uses' => 'AdminController@index']);
+    Route::get('/', ['as' => 'admin.index', 'uses' => 'IndexController@index']);
 });
