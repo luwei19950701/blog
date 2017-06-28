@@ -15,6 +15,9 @@
     <link href="../home/css/global.css" rel="stylesheet" />
     <!-- 本页样式表 -->
     <link href="../home/css/home.css" rel="stylesheet" />
+
+    <script data-pace-options='{ "ajax": false ,"eventLag": false}' src="../home/plug/pace.min.js"></script>
+
 </head>
 <body>
     @include('home.layouts.header')

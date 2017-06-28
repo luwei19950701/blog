@@ -1,1 +1,1 @@
-xxxx
+@extends('admin.layouts.app')
