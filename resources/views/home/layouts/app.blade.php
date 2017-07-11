@@ -5,6 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; Charset=gb2312">
     <meta http-equiv="Content-Language" content="zh-CN">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
     <title>不落阁 - 一个.NET程序员的个人博客网站</title>
     <link rel="shortcut icon" href="../home/images/Logo_40.png" type="image/x-icon">
     <!--Layui-->
@@ -46,7 +48,6 @@
     <script src="../home/plug/layui/layui.js"></script>
     <!-- 全局脚本 -->
     <script src="../home/js/global.js"></script>
-    <!-- 本页脚本 -->
-    <script src="../home/js/home.js"></script>
+    @yield('js')
 </body>
 </html>
