@@ -36,8 +36,8 @@
                         <img src="../home/images/Absolutely.jpg" alt="Absolutely" />
                     </div>
                     <p class="blogerinfo-nickname">Absolutely</p>
-                    <p class="blogerinfo-introduce">一枚90后程序员，.NET开发工程师</p>
-                    <p class="blogerinfo-location"><i class="fa fa-location-arrow"></i>&nbsp;四川 - 成都</p>
+                    <p class="blogerinfo-introduce">一枚90后程序员，PHP开发工程师</p>
+                    <p class="blogerinfo-location"><i class="fa fa-location-arrow"></i>&nbsp;安徽 - 铜陵</p>
                     <hr />
                     <div class="blogerinfo-contact">
                         <a target="_blank" title="QQ交流" href="javascript:layer.msg('启动QQ会话窗口')"><i class="fa fa-qq fa-2x"></i></a>

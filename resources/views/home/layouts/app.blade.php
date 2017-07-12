@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    <title>不落阁 - 一个.NET程序员的个人博客网站</title>
+    <title>大傻逼 - 一个PHP程序员的个人博客网站</title>
     <link rel="shortcut icon" href="../home/images/Logo_40.png" type="image/x-icon">
     <!--Layui-->
     <link href="../home/plug/layui/css/layui.css" rel="stylesheet" />
