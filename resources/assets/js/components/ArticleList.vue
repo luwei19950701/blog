@@ -1,9 +1,9 @@
 <template>
     <!--左边文章列表-->
-    <div class="blog-main-left" v-if="total" v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="10">
+    <div class="blog-main-left" v-if="total">
         <div class="article shadow" v-for="item in items">
             <div class="article-left">
-                <img src="" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                <img :src="item.imgs[0]?item.imgs[0].img_url:'/uploads/imgs/2.jpg'" :alt="item.title" />
             </div>
             <div class="article-right">
                 <div class="article-title">
@@ -24,6 +24,7 @@
                 <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;{{item.comments_count}}</span>
             </div>
         </div>
+        <div class="layui-flow-more" v-show="more">没有更多了</div>
    </div>
 </template>
 
@@ -33,8 +34,9 @@
             return {
                 items : [],
                 total : 0,
+                more : false,
                 currentPage: 1,
-                busy: false
+                countPage: 10
             }
         },
         created(){
@@ -44,7 +46,11 @@
                 let scrollHeight = $(document).height()
                 let windowHeight = $(this).height()
                 if(scrollTop + windowHeight === scrollHeight){
-                    self.getList(self.currentPage+1)
+                    if(parseInt(self.countPage) > parseInt(self.currentPage)){
+                        self.getList(self.currentPage+1)
+                    }else{
+                        self.more = 'ok'
+                    }
                 }
             })
         },
@@ -59,16 +65,12 @@
                     params: prm
                 }).then(function(response){
                     let tmp = response.data
-                    console.log(self.items)
-                    self.items = tmp.data
-
+                    self.items.push.apply(self.items, tmp.data)
                     self.total = tmp.total
                     self.currentPage = tmp.current_page
-                    console.log(self.items)
+                    self.countPage = tmp.last_page
+                    console.log(tmp.data[0])
                 })
-            },
-            loadMore: function() {
-                this.getList(this);
             }
         }
 

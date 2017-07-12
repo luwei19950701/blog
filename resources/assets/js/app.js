@@ -11,7 +11,6 @@ window.Vue = require('vue');
 window.axios = require('axios');
 window.VueAxios = require('vue-axios');
 window.VueRouter = require('vue-router');
-window.infiniteScroll = require('vue-infinite-scroll');
 
 window.axios.defaults.headers.common = {
     'X-CSRF-TOKEN':document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
@@ -19,7 +18,7 @@ window.axios.defaults.headers.common = {
 };
 window.axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
 
-Vue.use([VueRouter,infiniteScroll])
+Vue.use([VueRouter])
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

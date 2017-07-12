@@ -1,12 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers\Admin;
 
-use App\Article;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+use App\Img;
 
-class IndexController extends Controller
+class ImgController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
@@ -25,11 +24,14 @@ class IndexController extends Controller
      *
      * @return void
      */
-    public function article(Request $request)
+    public function index()
     {
-        $data = Article::with('tags')->with(['imgs' => function($query){
-            return $query->where(['is_face'=>1])->select()->get();
-        }])->paginate(8);
-        return $data;
+        $prefix = '/uploads/imgs/';
+        $url = $prefix.mt_rand(1,8).'.jpg';
+        $data = array(
+            'img_url' => $url
+        );
+        $rs = Img::create($data);
+        dump($rs);die;
     }
 }
