@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 42);
+/******/ 	return __webpack_require__(__webpack_require__.s = 41);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -783,11 +783,10 @@ module.exports = g;
 
 __webpack_require__(29);
 
-window.Vue = __webpack_require__(40);
+window.Vue = __webpack_require__(39);
 window.axios = __webpack_require__(2);
 window.VueAxios = __webpack_require__(34);
-window.VueRouter = __webpack_require__(39);
-window.infiniteScroll = __webpack_require__(35);
+window.VueRouter = __webpack_require__(38);
 
 window.axios.defaults.headers.common = {
   'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
@@ -795,14 +794,14 @@ window.axios.defaults.headers.common = {
 };
 window.axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
 
-Vue.use([VueRouter, infiniteScroll]);
+Vue.use([VueRouter]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('page', __webpack_require__(36));
+Vue.component('page', __webpack_require__(35));
 
 var app = new Vue({
   el: '#app'
@@ -1684,19 +1683,32 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
             items: [],
             total: 0,
+            more: false,
             currentPage: 1,
-            busy: false
+            countPage: 10
         };
     },
     created: function created() {
-        window.addEventListener('scroll', this.handleScroll);
-        alert(2);
+        var self = this;
+        $(window).scroll(function () {
+            var scrollTop = $(this).scrollTop();
+            var scrollHeight = $(document).height();
+            var windowHeight = $(this).height();
+            if (scrollTop + windowHeight === scrollHeight) {
+                if (parseInt(self.countPage) > parseInt(self.currentPage)) {
+                    self.getList(self.currentPage + 1);
+                } else {
+                    self.more = 'ok';
+                }
+            }
+        });
     },
     mounted: function mounted() {
         this.getList(this.currentPage);
@@ -1710,18 +1722,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 params: prm
             }).then(function (response) {
                 var tmp = response.data;
-                self.items = tmp.data;
+                self.items.push.apply(self.items, tmp.data);
                 self.total = tmp.total;
                 self.currentPage = tmp.current_page;
+                self.countPage = tmp.last_page;
+                console.log(tmp.data[0]);
             });
-        },
-        handleScroll: function handleScroll() {
-            alert(1);
-            this.scrollPos = document.body.scrollHeight - window.innerHeight - document.body.scrollTop;
-            if (document.body.scrollHeight - window.innerHeight - document.body.scrollTop == 0) {
-                // load more data here...
-                alert(1);
-            }
         }
     }
 
@@ -31518,7 +31524,7 @@ return jQuery;
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8), __webpack_require__(41)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8), __webpack_require__(40)(module)))
 
 /***/ }),
 /* 33 */
@@ -31722,238 +31728,11 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var _typeof="fun
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-(function (global, factory) {
-	 true ? module.exports = factory() :
-	typeof define === 'function' && define.amd ? define(factory) :
-	(global.infiniteScroll = factory());
-}(this, (function () { 'use strict';
-
-var ctx = '@@InfiniteScroll';
-
-var throttle = function throttle(fn, delay) {
-  var now, lastExec, timer, context, args; //eslint-disable-line
-
-  var execute = function execute() {
-    fn.apply(context, args);
-    lastExec = now;
-  };
-
-  return function () {
-    context = this;
-    args = arguments;
-
-    now = Date.now();
-
-    if (timer) {
-      clearTimeout(timer);
-      timer = null;
-    }
-
-    if (lastExec) {
-      var diff = delay - (now - lastExec);
-      if (diff < 0) {
-        execute();
-      } else {
-        timer = setTimeout(function () {
-          execute();
-        }, diff);
-      }
-    } else {
-      execute();
-    }
-  };
-};
-
-var getScrollTop = function getScrollTop(element) {
-  if (element === window) {
-    return Math.max(window.pageYOffset || 0, document.documentElement.scrollTop);
-  }
-
-  return element.scrollTop;
-};
-
-var getComputedStyle = document.defaultView.getComputedStyle;
-
-var getScrollEventTarget = function getScrollEventTarget(element) {
-  var currentNode = element;
-  // bugfix, see http://w3help.org/zh-cn/causes/SD9013 and http://stackoverflow.com/questions/17016740/onscroll-function-is-not-working-for-chrome
-  while (currentNode && currentNode.tagName !== 'HTML' && currentNode.tagName !== 'BODY' && currentNode.nodeType === 1) {
-    var overflowY = getComputedStyle(currentNode).overflowY;
-    if (overflowY === 'scroll' || overflowY === 'auto') {
-      return currentNode;
-    }
-    currentNode = currentNode.parentNode;
-  }
-  return window;
-};
-
-var getVisibleHeight = function getVisibleHeight(element) {
-  if (element === window) {
-    return document.documentElement.clientHeight;
-  }
-
-  return element.clientHeight;
-};
-
-var getElementTop = function getElementTop(element) {
-  if (element === window) {
-    return getScrollTop(window);
-  }
-  return element.getBoundingClientRect().top + getScrollTop(window);
-};
-
-var isAttached = function isAttached(element) {
-  var currentNode = element.parentNode;
-  while (currentNode) {
-    if (currentNode.tagName === 'HTML') {
-      return true;
-    }
-    if (currentNode.nodeType === 11) {
-      return false;
-    }
-    currentNode = currentNode.parentNode;
-  }
-  return false;
-};
-
-var doBind = function doBind() {
-  if (this.binded) return; // eslint-disable-line
-  this.binded = true;
-
-  var directive = this;
-  var element = directive.el;
-
-  directive.scrollEventTarget = getScrollEventTarget(element);
-  directive.scrollListener = throttle(doCheck.bind(directive), 200);
-  directive.scrollEventTarget.addEventListener('scroll', directive.scrollListener);
-
-  var disabledExpr = element.getAttribute('infinite-scroll-disabled');
-  var disabled = false;
-
-  if (disabledExpr) {
-    this.vm.$watch(disabledExpr, function (value) {
-      directive.disabled = value;
-      if (!value && directive.immediateCheck) {
-        doCheck.call(directive);
-      }
-    });
-    disabled = Boolean(directive.vm[disabledExpr]);
-  }
-  directive.disabled = disabled;
-
-  var distanceExpr = element.getAttribute('infinite-scroll-distance');
-  var distance = 0;
-  if (distanceExpr) {
-    distance = Number(directive.vm[distanceExpr] || distanceExpr);
-    if (isNaN(distance)) {
-      distance = 0;
-    }
-  }
-  directive.distance = distance;
-
-  var immediateCheckExpr = element.getAttribute('infinite-scroll-immediate-check');
-  var immediateCheck = true;
-  if (immediateCheckExpr) {
-    immediateCheck = Boolean(directive.vm[immediateCheckExpr]);
-  }
-  directive.immediateCheck = immediateCheck;
-
-  if (immediateCheck) {
-    doCheck.call(directive);
-  }
-
-  var eventName = element.getAttribute('infinite-scroll-listen-for-event');
-  if (eventName) {
-    directive.vm.$on(eventName, function () {
-      doCheck.call(directive);
-    });
-  }
-};
-
-var doCheck = function doCheck(force) {
-  var scrollEventTarget = this.scrollEventTarget;
-  var element = this.el;
-  var distance = this.distance;
-
-  if (force !== true && this.disabled) return; //eslint-disable-line
-  var viewportScrollTop = getScrollTop(scrollEventTarget);
-  var viewportBottom = viewportScrollTop + getVisibleHeight(scrollEventTarget);
-
-  var shouldTrigger = false;
-
-  if (scrollEventTarget === element) {
-    shouldTrigger = scrollEventTarget.scrollHeight - viewportBottom <= distance;
-  } else {
-    var elementBottom = getElementTop(element) - getElementTop(scrollEventTarget) + element.offsetHeight + viewportScrollTop;
-
-    shouldTrigger = viewportBottom + distance >= elementBottom;
-  }
-
-  if (shouldTrigger && this.expression) {
-    this.expression();
-  }
-};
-
-var InfiniteScroll$1 = {
-  bind: function bind(el, binding, vnode) {
-    el[ctx] = {
-      el: el,
-      vm: vnode.context,
-      expression: binding.value
-    };
-    var args = arguments;
-    el[ctx].vm.$on('hook:mounted', function () {
-      el[ctx].vm.$nextTick(function () {
-        if (isAttached(el)) {
-          doBind.call(el[ctx], args);
-        }
-
-        el[ctx].bindTryCount = 0;
-
-        var tryBind = function tryBind() {
-          if (el[ctx].bindTryCount > 10) return; //eslint-disable-line
-          el[ctx].bindTryCount++;
-          if (isAttached(el)) {
-            doBind.call(el[ctx], args);
-          } else {
-            setTimeout(tryBind, 50);
-          }
-        };
-
-        tryBind();
-      });
-    });
-  },
-  unbind: function unbind(el) {
-    if (el && el[ctx] && el[ctx].scrollEventTarget) el[ctx].scrollEventTarget.removeEventListener('scroll', el[ctx].scrollListener);
-  }
-};
-
-var install = function install(Vue) {
-  Vue.directive('InfiniteScroll', InfiniteScroll$1);
-};
-
-if (window.Vue) {
-  window.infiniteScroll = InfiniteScroll$1;
-  Vue.use(install); // eslint-disable-line
-}
-
-InfiniteScroll$1.install = install;
-
-return InfiniteScroll$1;
-
-})));
-
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Component = __webpack_require__(37)(
+var Component = __webpack_require__(36)(
   /* script */
   __webpack_require__(28),
   /* template */
-  __webpack_require__(38),
+  __webpack_require__(37),
   /* scopeId */
   null,
   /* cssModules */
@@ -31980,7 +31759,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ (function(module, exports) {
 
 // this module is a runtime utility for cleaner component module output and will
@@ -32037,26 +31816,23 @@ module.exports = function normalizeComponent (
 
 
 /***/ }),
-/* 38 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return (_vm.total) ? _c('div', {
-    directives: [{
-      name: "infinite-scroll",
-      rawName: "v-infinite-scroll",
-      value: (_vm.loadMore),
-      expression: "loadMore"
-    }],
-    staticClass: "blog-main-left",
-    attrs: {
-      "infinite-scroll-disabled": "busy",
-      "infinite-scroll-distance": "10"
-    }
-  }, _vm._l((_vm.items), function(item) {
+    staticClass: "blog-main-left"
+  }, [_vm._l((_vm.items), function(item) {
     return _c('div', {
       staticClass: "article shadow"
-    }, [_vm._m(0, true), _vm._v(" "), _c('div', {
+    }, [_c('div', {
+      staticClass: "article-left"
+    }, [_c('img', {
+      attrs: {
+        "src": item.imgs[0] ? item.imgs[0].img_url : '/uploads/imgs/2.jpg',
+        "alt": item.title
+      }
+    })]), _vm._v(" "), _c('div', {
       staticClass: "article-right"
     }, [_c('div', {
       staticClass: "article-title"
@@ -32072,7 +31848,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       staticClass: "article-footer"
     }, [_c('span', [_c('i', {
       staticClass: "fa fa-clock-o"
-    }), _vm._v("  " + _vm._s(item.created_at))]), _vm._v(" "), _vm._m(1, true), _vm._v(" "), _vm._l((item.tags), function(tag) {
+    }), _vm._v("  " + _vm._s(item.created_at))]), _vm._v(" "), _vm._m(0, true), _vm._v(" "), _vm._l((item.tags), function(tag) {
       return _c('span', [_c('i', {
         staticClass: "fa fa-tag"
       }), _vm._v("  "), _c('a', {
@@ -32089,17 +31865,16 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }, [_c('i', {
       staticClass: "fa fa-commenting"
     }), _vm._v(" " + _vm._s(item.comments_count))])], 2)])
-  })) : _vm._e()
+  }), _vm._v(" "), _c('div', {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: (_vm.more),
+      expression: "more"
+    }],
+    staticClass: "layui-flow-more"
+  }, [_vm._v("没有更多了")])], 2) : _vm._e()
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "article-left"
-  }, [_c('img', {
-    attrs: {
-      "src": "",
-      "alt": "基于laypage的layui扩展模块（pagesize.js）！"
-    }
-  })])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('span', {
     staticClass: "article-author"
   }, [_c('i', {
@@ -32115,7 +31890,7 @@ if (false) {
 }
 
 /***/ }),
-/* 39 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34628,7 +34403,7 @@ if (inBrowser && window.Vue) {
 
 
 /***/ }),
-/* 40 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44327,7 +44102,7 @@ module.exports = Vue$3;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -44355,7 +44130,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 42 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(9);
