@@ -29,7 +29,7 @@ class IndexController extends Controller
     {
         $data = Article::with('tags')->with(['imgs' => function($query){
             return $query->where(['is_face'=>1])->select()->get();
-        }])->paginate(8);
+        }])->paginate();
         return $data;
     }
 }

@@ -9,6 +9,9 @@ class Article extends Model
     //
     protected $fillable = ['title','uid','description'];
 
+    //分页数
+    protected $perPage = 5;
+
     //与标签多对多关系
     public function tags(){
         return $this->belongsToMany('App\Tag')->withTimestamps();
