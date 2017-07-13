@@ -12,11 +12,11 @@ window.axios = require('axios');
 window.VueAxios = require('vue-axios');
 window.VueRouter = require('vue-router');
 
-window.axios.defaults.headers.common = {
-    'X-CSRF-TOKEN':document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
-    'X-Requested-With': 'XMLHttpRequest',
-};
-window.axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
+// window.axios.defaults.headers.common = {
+//     'X-CSRF-TOKEN':document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+//     'X-Requested-With': 'XMLHttpRequest',
+// };
+// window.axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
 
 Vue.use([VueRouter])
 /**
@@ -26,6 +26,7 @@ Vue.use([VueRouter])
  */
 
 Vue.component('page', require('./components/ArticleList.vue'));
+Vue.component('profile', require('./components/Profile.vue'));
 
 const app = new Vue({
     el: '#app'

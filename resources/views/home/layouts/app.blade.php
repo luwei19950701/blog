@@ -15,9 +15,7 @@
     <link href="../home/plug/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <!--全局样式表-->
     <link href="../home/css/global.css" rel="stylesheet" />
-    <!-- 本页样式表 -->
-    <link href="../home/css/home.css" rel="stylesheet" />
-
+    @yield('css')
     <script data-pace-options='{ "ajax": false ,"eventLag": false}' src="../home/plug/pace.min.js"></script>
 
 </head>
@@ -48,6 +46,8 @@
     <script src="../home/plug/layui/layui.js"></script>
     <!-- 全局脚本 -->
     <script src="../home/js/global.js"></script>
+    {{--vuejs--}}
+    <script src="{{ mix('/js/app.js') }}"></script>
     @yield('js')
 </body>
 </html>

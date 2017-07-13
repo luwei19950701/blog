@@ -17,7 +17,12 @@ class CreateProfilesTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('abstract');
-            $table->increments('id');
+            $table->integer('pid');
+            $table->integer('cid');
+            $table->string('qq');
+            $table->string('email');
+            $table->string('weibo');
+            $table->string('github');
             $table->timestamps();
         });
     }

@@ -788,11 +788,11 @@ window.axios = __webpack_require__(2);
 window.VueAxios = __webpack_require__(34);
 window.VueRouter = __webpack_require__(38);
 
-window.axios.defaults.headers.common = {
-  'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
-  'X-Requested-With': 'XMLHttpRequest'
-};
-window.axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
+// window.axios.defaults.headers.common = {
+//     'X-CSRF-TOKEN':document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+//     'X-Requested-With': 'XMLHttpRequest',
+// };
+// window.axios.defaults.headers.get['Content-Type'] = 'application/x-www-form-urlencoded';
 
 Vue.use([VueRouter]);
 /**
@@ -802,6 +802,7 @@ Vue.use([VueRouter]);
  */
 
 Vue.component('page', __webpack_require__(35));
+Vue.component('profile', __webpack_require__(51));
 
 var app = new Vue({
   el: '#app'
@@ -1726,7 +1727,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 self.total = tmp.total;
                 self.currentPage = tmp.current_page;
                 self.countPage = tmp.last_page;
-                console.log(tmp.data[0]);
             });
         }
     }
@@ -44136,6 +44136,164 @@ module.exports = function(module) {
 __webpack_require__(9);
 module.exports = __webpack_require__(10);
 
+
+/***/ }),
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            items: false
+        };
+    },
+    mounted: function mounted() {
+        this.getList();
+    },
+
+    methods: {
+        getList: function getList(p) {
+            var self = this;
+            axios.get('/api/profile').then(function (response) {
+                self.items = response.data;
+            });
+        }
+    }
+
+});
+
+/***/ }),
+/* 51 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(36)(
+  /* script */
+  __webpack_require__(50),
+  /* template */
+  __webpack_require__(52),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "D:\\laravel\\blog\\resources\\assets\\js\\components\\Profile.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] Profile.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-461af2ba", Component.options)
+  } else {
+    hotAPI.reload("data-v-461af2ba", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return (_vm.items) ? _c('div', {
+    staticClass: "blogerinfo shadow"
+  }, [_c('div', {
+    staticClass: "blogerinfo-figure"
+  }, [_c('img', {
+    attrs: {
+      "src": "/home/images/Absolutely.jpg",
+      "alt": _vm.items.name
+    }
+  })]), _vm._v(" "), _c('p', {
+    staticClass: "blogerinfo-nickname"
+  }, [_vm._v(_vm._s(_vm.items.name))]), _vm._v(" "), _c('p', {
+    staticClass: "blogerinfo-introduce"
+  }, [_vm._v(_vm._s(_vm.items.abstract))]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('hr'), _vm._v(" "), _vm._m(1)]) : _vm._e()
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('p', {
+    staticClass: "blogerinfo-location"
+  }, [_c('i', {
+    staticClass: "fa fa-location-arrow"
+  }), _vm._v(" 安徽 - 铜陵")])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "blogerinfo-contact"
+  }, [_c('a', {
+    attrs: {
+      "target": "_blank",
+      "title": "QQ交流",
+      "href": "http://wpa.qq.com/msgrd?v=3&uin=1197329636&site=qq&menu=yes"
+    }
+  }, [_c('i', {
+    staticClass: "fa fa-qq fa-2x"
+  })]), _vm._v(" "), _c('a', {
+    attrs: {
+      "target": "_blank",
+      "title": "给我写信",
+      "href": "javascript:layer.msg('启动邮我窗口')"
+    }
+  }, [_c('i', {
+    staticClass: "fa fa-envelope fa-2x"
+  })]), _vm._v(" "), _c('a', {
+    attrs: {
+      "target": "_blank",
+      "title": "新浪微博",
+      "href": "javascript:layer.msg('转到你的微博主页')"
+    }
+  }, [_c('i', {
+    staticClass: "fa fa-weibo fa-2x"
+  })]), _vm._v(" "), _c('a', {
+    attrs: {
+      "target": "_blank",
+      "title": "码云",
+      "href": "javascript:layer.msg('转到你的github主页')"
+    }
+  }, [_c('i', {
+    staticClass: "fa fa-git fa-2x"
+  })])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-461af2ba", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

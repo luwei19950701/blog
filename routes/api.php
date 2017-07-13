@@ -18,3 +18,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::middleware('api')->get('/article',['as' => 'api.article', 'uses' => 'IndexController@article']);
+
+Route::middleware('api')->get('/profile',['as' => 'api.profile', 'uses' => 'IndexController@profile']);

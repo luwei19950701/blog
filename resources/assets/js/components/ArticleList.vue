@@ -69,7 +69,6 @@
                     self.total = tmp.total
                     self.currentPage = tmp.current_page
                     self.countPage = tmp.last_page
-                    console.log(tmp.data[0])
                 })
             }
         }

@@ -1,5 +1,8 @@
 @extends('home.layouts.app')
-
+@section('css')
+    <!-- 本页样式表 -->
+    <link href="../home/css/home.css" rel="stylesheet" />
+@stop
 @section('content')
 <!-- 主体（一般只改变这里的内容） -->
 <div class="blog-body">
@@ -28,26 +31,11 @@
                     <span style="color: #009688">不落阁 &nbsp;—— &nbsp;一个.NET程序员的个人博客，新版网站采用Layui为前端框架，目前正在建设中！</span>
                 </div>
             </div>
-{{--文章列表--}}
-<page></page>
-
+            {{--文章列表--}}
+            <page></page>
             <!--右边小栏目-->
             <div class="blog-main-right">
-                <div class="blogerinfo shadow">
-                    <div class="blogerinfo-figure">
-                        <img src="../home/images/Absolutely.jpg" alt="Absolutely" />
-                    </div>
-                    <p class="blogerinfo-nickname">Absolutely</p>
-                    <p class="blogerinfo-introduce">一枚90后程序员，PHP开发工程师</p>
-                    <p class="blogerinfo-location"><i class="fa fa-location-arrow"></i>&nbsp;安徽 - 铜陵</p>
-                    <hr />
-                    <div class="blogerinfo-contact">
-                        <a target="_blank" title="QQ交流" href="http://wpa.qq.com/msgrd?v=3&uin=1197329636&site=qq&menu=yes"><i class="fa fa-qq fa-2x"></i></a>
-                        <a target="_blank" title="给我写信" href="javascript:layer.msg('启动邮我窗口')"><i class="fa fa-envelope fa-2x"></i></a>
-                        <a target="_blank" title="新浪微博" href="javascript:layer.msg('转到你的微博主页')"><i class="fa fa-weibo fa-2x"></i></a>
-                        <a target="_blank" title="码云" href="javascript:layer.msg('转到你的github主页')"><i class="fa fa-git fa-2x"></i></a>
-                    </div>
-                </div>
+                <profile></profile>
                 <div></div><!--占位-->
                 <div class="blog-module shadow">
                     <div class="blog-module-title">热文排行</div>
@@ -111,6 +99,4 @@
 @section('js')
     <!-- 本页脚本 -->
     <script src="../home/js/home.js"></script>
-    {{--vuejs--}}
-    <script src="{{ mix('/js/app.js') }}"></script>
 @stop

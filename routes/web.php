@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home.index.index');
+//Route::get('/', function () {
+//    return view('home.index.index');
+//});
+
+Route::group(['namespace'=>'Home'], function () {
+    Route::get('/', ['as' => 'home.index', 'uses' => 'IndexController@index']);
+
+    //关于我
+    Route::get('/about', ['as' => 'home.about', 'uses' => 'AboutController@index']);
+
+
+    Route::get('/detail/{id}', ['as' => 'home.article.detail', 'uses' => 'IndexController@index']);
 });

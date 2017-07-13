@@ -25,7 +25,7 @@
                 <a href="timeline.html"><i class="fa fa-hourglass-half fa-fw"></i>&nbsp;点点滴滴</a>
             </li>
             <li class="layui-nav-item">
-                <a href="about.html"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
+                <a href="{{ route('home.about') }}"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
             </li>
         </ul>
         <!-- 手机和平板的导航开关 -->
