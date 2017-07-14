@@ -23,7 +23,7 @@
                     <div class="layui-tab-item">
                         <div class="aboutinfo">
                             <div class="aboutinfo-figure">
-                                <img src="../images/Logo_100.png" alt="不落阁" />
+                                <img src="../home/images/Logo_100.png" alt="不落阁" />
                             </div>
                             <p class="aboutinfo-nickname">不落阁</p>
                             <p class="aboutinfo-introduce">一个.NET程序员的个人博客，记录博主学习和成长之路，分享.NET方面技术和源码</p>
@@ -54,7 +54,7 @@
                     <div class="layui-tab-item">
                         <div class="aboutinfo">
                             <div class="aboutinfo-figure">
-                                <img src="../images/Absolutely.jpg" alt="Absolutely" />
+                                <img src="../home/images/Absolutely.jpg" alt="Absolutely" />
                             </div>
                             <p class="aboutinfo-nickname">Absolutely</p>
                             <p class="aboutinfo-introduce">一枚90后程序员，.NET开发工程师，主攻B/S架构，略懂Web前端</p>
@@ -82,7 +82,7 @@
                     <div class="layui-tab-item">
                         <div class="aboutinfo">
                             <div class="aboutinfo-figure">
-                                <img src="../images/handshake.png" alt="友情链接" />
+                                <img src="../home/images/handshake.png" alt="友情链接" />
                             </div>
                             <p class="aboutinfo-nickname">友情链接</p>
                             <p class="aboutinfo-introduce">Name：不落阁&nbsp;&nbsp;&nbsp;&nbsp;Site：www.lyblogs.cn</p>
@@ -124,7 +124,7 @@
                     <div class="layui-tab-item">
                         <div class="aboutinfo">
                             <div class="aboutinfo-figure">
-                                <img src="../images/messagewall.png" alt="留言墙" />
+                                <img src="../home/images/messagewall.png" alt="留言墙" />
                             </div>
                             <p class="aboutinfo-nickname">留言墙</p>
                             <p class="aboutinfo-introduce">本页面可留言、吐槽、提问。欢迎灌水，杜绝广告！</p>
@@ -151,7 +151,7 @@
                                         <ul class="blog-comment">
                                             <li>
                                                 <div class="comment-parent">
-                                                    <img src="../images/Logo_40.png" alt="不落阁" />
+                                                    <img src="../home/images/Logo_40.png" alt="不落阁" />
                                                     <div class="info">
                                                         <span class="username">不落阁</span>
                                                     </div>
@@ -162,14 +162,14 @@
                                                 </div>
                                                 <hr />
                                                 <div class="comment-child">
-                                                    <img src="../images/Absolutely.jpg" alt="Absolutely" />
+                                                    <img src="../home/images/Absolutely.jpg" alt="Absolutely" />
                                                     <div class="info">
                                                         <span class="username">Absolutely</span><span>这是用户回复内容</span>
                                                     </div>
                                                     <p class="info"><span class="time">2017-03-18 18:26</span></p>
                                                 </div>
                                                 <div class="comment-child">
-                                                    <img src="../images/Absolutely.jpg" alt="Absolutely" />
+                                                    <img src="../home/images/Absolutely.jpg" alt="Absolutely" />
                                                     <div class="info">
                                                         <span class="username">Absolutely</span><span>这是第二个用户回复内容</span>
                                                     </div>
@@ -204,7 +204,7 @@
     <script type="text/javascript">
         var ue = UE.getEditor('container');
         ue.ready(function() {
-            ue.execCommand('serverparam', '_token', '{{ csrf_token() }}'); // 设置 CSRF token.
+            {{--ue.execCommand('serverparam', '_token', '{{ csrf_token() }}'); // 设置 CSRF token.--}}
         });
     </script>
 @stop
