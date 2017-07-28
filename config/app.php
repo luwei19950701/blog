@@ -164,6 +164,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         //UEditor
         Overtrue\LaravelUEditor\UEditorServiceProvider::class,
+        Douyasi\WangEditor\EditorServiceProvider::class,
 
         /*
          * Package Service Providers...

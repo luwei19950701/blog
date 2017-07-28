@@ -2,6 +2,7 @@
 @include('vendor.ueditor.assets')
 @section('css')
     <link rel="stylesheet" href="../home/css/about.css">
+    {!! we_css() !!}
 @stop
 @section('content')
 <!-- 主体（一般只改变这里的内容） -->
@@ -142,7 +143,8 @@
                                         <form class="layui-form blog-editor" action="">
                                             <div class="layui-form-item">
                                                 <!-- 编辑器容器 -->
-                                                <script id="container" name="content" type="text/plain"></script>
+                                                {{--<script id="container" name="content" type="text/plain"></script>--}}
+                                                <textarea class="form-control we-container" name="content" id="wangeditor" style="display:none;" cols="5"></textarea>
                                             </div>
                                             <div class="layui-form-item">
                                                 <button class="layui-btn" lay-submit="formLeaveMessage" lay-filter="formLeaveMessage">提交留言</button>
@@ -200,11 +202,27 @@
 </div>
 @stop
 @section('js')
-    <!-- 实例化编辑器 -->
-    <script type="text/javascript">
-        var ue = UE.getEditor('container');
-        ue.ready(function() {
+    {!! we_js() !!}
+    {!! we_config('wangeditor') !!}
+    {{--<!-- 实例化编辑器 -->--}}
+    {{--<script type="text/javascript">--}}
+        {{--var ue = UE.getEditor('container');--}}
+        {{--ue.ready(function() {--}}
             {{--ue.execCommand('serverparam', '_token', '{{ csrf_token() }}'); // 设置 CSRF token.--}}
-        });
-    </script>
+        {{--});--}}
+        {{--var ue = UE.getEditor('container', {--}}
+            {{--toolbars: [--}}
+                {{--['bold', 'italic', 'underline', 'strikethrough', 'blockquote', 'insertunorderedlist', 'insertorderedlist', 'justifyleft','justifycenter', 'justifyright',  'link', 'insertimage', 'fullscreen']--}}
+            {{--],--}}
+            {{--elementPathEnabled: false,--}}
+            {{--enableContextMenu: false,--}}
+            {{--autoClearEmptyNode:true,--}}
+            {{--wordCount:false,--}}
+            {{--imagePopup:false,--}}
+            {{--autotypeset:{ indent: true,imageBlockLine: 'center' }--}}
+        {{--});--}}
+        {{--ue.ready(function() {--}}
+            {{--ue.execCommand('serverparam', '_token', '{{ csrf_token() }}'); // 设置 CSRF token.--}}
+        {{--});--}}
+    {{--</script>--}}
 @stop
