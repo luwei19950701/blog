@@ -9,7 +9,7 @@
             <img src="../home/images/Absolutely.jpg" alt="Absolutely" title="Absolutely" />
         </a>
         <!-- 不落阁 -->
-        <a class="blog-logo" href="home.html">宇宙超级无敌大傻逼
+        <a class="blog-logo" href="home.html">大傻逼
         </a>
         <!-- 导航菜单 -->
         <ul class="layui-nav" lay-filter="nav">
